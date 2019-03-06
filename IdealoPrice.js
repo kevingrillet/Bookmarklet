@@ -1,5 +1,5 @@
 javascript: (function () {
-  var prices = document.querySelector(".wishlist-item-list--container")
+  var prices = document.querySelector(".wishlist-item-list--container");
   if (prices) {
     prices = prices.querySelectorAll(".info-price--current");
   } else {
